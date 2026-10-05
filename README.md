@@ -11,6 +11,12 @@ Developed by Group 4, Department of Informatics, Multimedia Nusantara University
 
 ---
 
+## Architecture & Pipeline
+
+![PPE Compliance Architecture & Pipeline](assets/pipeline.gif)
+
+---
+
 ## Key Highlights
 
 1. **Semi-Supervised Learning (SSL)**:
