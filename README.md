@@ -11,9 +11,11 @@ Developed by Group 4, Department of Informatics, Multimedia Nusantara University
 
 ---
 
-## Architecture & Pipeline
+## Demo & Architecture
 
-![PPE Compliance Architecture & Pipeline](assets/pipeline.gif)
+| Live Detection Demo | System Workflow & Architecture |
+| :---: | :---: |
+| ![Real-Time PPE Compliance Demo](assets/demo_cctv.gif) | ![PPE Compliance Architecture & Pipeline](assets/pipeline.gif) |
 
 ---
 
@@ -68,7 +70,7 @@ ppe-compliance-detection/
 ### 1. Installation
 
 ```bash
-git clone https://github.com/<your-username>/ppe-compliance-detection.git
+git clone https://github.com/KennyUMN/ppe-compliance-detection.git
 cd ppe-compliance-detection
 pip install -r requirements.txt
 ```
