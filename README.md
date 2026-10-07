@@ -53,6 +53,27 @@ Developed by Group 4, Department of Informatics, Multimedia Nusantara University
 
 ---
 
+## Dataset Sources & Attribution
+
+The model was trained on a consolidated multi-source corpus of **22,033 images** harmonized across **12 standardized target classes** (`person`, `face`, `face-mask`, `foot`, `glasses`, `gloves`, `helmet`, `hands`, `head`, `body-protection`, `shoes`, `safety-vest`). 
+
+We gratefully acknowledge the original authors and maintainers of the 8 open-access datasets curated from Kaggle and Roboflow:
+
+| # | Dataset | Source / Platform | Key Equipment Classes Extracted |
+| :---: | :--- | :--- | :--- |
+| 1 | **SH17 Dataset for PPE Detection** | [Kaggle](https://www.kaggle.com/datasets/mugheesahmad/sh17-dataset-for-ppe-detection) / [GitHub](https://github.com/ahmadmughees/SH17dataset) | General industrial PPE, helmets, vests, gloves |
+| 2 | **CPPE-5 Medical PPE Detection** | [Kaggle](https://www.kaggle.com/datasets/vaurollaazzahra/cppe-5-dataset-for-medical-ppe-detection) | Coveralls, gloves, goggles, masks |
+| 3 | **Helmet Detection Dataset** | [Kaggle](https://www.kaggle.com/datasets/yannnn00/helmet) | Hard hats and safety helmets |
+| 4 | **Glasses, Gloves, Helmet, Boots & Vest** | [Kaggle](https://www.kaggle.com/datasets/yannnn00/glases-gloves-helmet-safetyboots-safety-vest) | Multi-PPE industrial equipment |
+| 5 | **Personal Protection Equipment Datasets** | [Kaggle](https://www.kaggle.com/datasets/aiotthien/personal-protection-equipment-datasets) | Supplemental PPE classes & edge cases |
+| 6 | **PPE Kelompok 4 Curated Dataset** | [Kaggle](https://www.kaggle.com/datasets/yannnn00/ppe-kelompok4) | Cleaned positive PPE equipment (gloves, glasses, shoes) |
+| 7 | **Foot Detection Dataset** | [Kaggle](https://www.kaggle.com/datasets/yannnn00/foot-detection) | Left/Right foot localization |
+| 8 | **Foot Roboflow Dataset** | [Kaggle](https://www.kaggle.com/datasets/vaurollaazzahra/foot-roboflow) | Multi-angle footwear perspectives |
+
+For complete class remapping tables, oversampling distribution, and format conversions, refer to [`docs/Raw Dataset.pdf`](docs/Raw%20Dataset.pdf).
+
+---
+
 ## Directory Structure
 
 ```text
@@ -60,6 +81,7 @@ ppe-compliance-detection/
 ├── ppecompliance_kelompok4_fixed.ipynb   # Audited Jupyter notebook for Kaggle/Cloud GPU
 ├── inference_ppe_compliance.py           # Standalone real-time inference script
 ├── requirements.txt                      # Project dependencies
+├── docs/                                 # Research paper, slides, and raw dataset documentation
 └── README.md                             # Documentation & research overview
 ```
 
