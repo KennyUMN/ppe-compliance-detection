@@ -9,3 +9,4 @@ __pycache__/
 *.pth
 .archify/
 .DS_Store
+*linkedin*
